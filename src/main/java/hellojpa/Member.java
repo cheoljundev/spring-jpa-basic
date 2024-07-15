@@ -2,7 +2,10 @@ package hellojpa;
 
 import jakarta.persistence.*;
 
-    @Entity
+import java.util.ArrayList;
+import java.util.List;
+
+@Entity
     public class Member {
         @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
         @Column(name = "member_id")
@@ -18,6 +21,10 @@ import jakarta.persistence.*;
         @OneToOne
         @JoinColumn(name = "LOCKER_ID")
         private Locker locker;
+
+        @ManyToMany
+        @JoinTable(name = "MEMBER_PRODUCT")
+        private List<Product> products = new ArrayList<>();
 
         public Long getId() {
             return id;

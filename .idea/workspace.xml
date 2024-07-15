@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="양방향 연관관계와 연관관계의 주인 2 - 주의점, 정리">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Locker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="일대일 [1:1]">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +110,7 @@
       <workItem from="1721027094524" duration="9947000" />
       <workItem from="1721053117657" duration="3944000" />
       <workItem from="1721059018965" duration="748000" />
-      <workItem from="1721062579828" duration="880000" />
+      <workItem from="1721062579828" duration="1724000" />
     </task>
     <task id="LOCAL-00001" summary="Hello JPA - 애플리케이션 개발">
       <option name="closed" value="true" />
@@ -265,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721056465173</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="일대일 [1:1]">
+      <option name="closed" value="true" />
+      <created>1721064045142</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1721064045142</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +297,8 @@
     <MESSAGE value="단방향 연관관계 매핑으로 개선 : 오탈자 수정" />
     <MESSAGE value="양방향 연관관계와 연관관계의 주인 1- 기본" />
     <MESSAGE value="양방향 연관관계와 연관관계의 주인 2 - 주의점, 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="양방향 연관관계와 연관관계의 주인 2 - 주의점, 정리" />
+    <MESSAGE value="일대일 [1:1]" />
+    <option name="LAST_COMMIT_MESSAGE" value="일대일 [1:1]" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
