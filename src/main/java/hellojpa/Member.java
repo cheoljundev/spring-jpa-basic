@@ -14,7 +14,8 @@ import java.util.List;
         @Column(name = "name")
         private String username;
 
-        @ManyToOne
+        @ManyToOne(fetch = FetchType.LAZY)
+//        @ManyToOne(fetch = FetchType.EAGER)
         @JoinColumn(name = "TEAM_ID") // N쪽이 주인
         private Team team;
 

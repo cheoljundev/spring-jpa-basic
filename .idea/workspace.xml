@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="프록시 클래스 확인">
+    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="프록시 유틸">
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,7 @@
       <workItem from="1721062579828" duration="2569000" />
       <workItem from="1721066515658" duration="2424000" />
       <workItem from="1721069317731" duration="12000" />
-      <workItem from="1721069582778" duration="1328000" />
+      <workItem from="1721069582778" duration="1742000" />
     </task>
     <task id="LOCAL-00001" summary="Hello JPA - 애플리케이션 개발">
       <option name="closed" value="true" />
@@ -330,14 +331,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721071410426</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="프록시 유틸">
+      <option name="closed" value="true" />
+      <created>1721071655298</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1721071655298</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="영속성 컨텍스트 1" />
     <MESSAGE value="영속성 컨텍스트 2 : 영속과 비영속" />
     <MESSAGE value="영속성 컨텍스트 2 : 영속성 엔티티의 동일성 보장" />
     <MESSAGE value="영속성 컨텍스트 2 : 트랜잭션을 지원하는 쓰기지연" />
@@ -362,7 +370,8 @@
     <MESSAGE value="Mapped Superclass - 매핑 정보 상속" />
     <MESSAGE value="프록시 사용 이유" />
     <MESSAGE value="프록시 클래스 확인" />
-    <option name="LAST_COMMIT_MESSAGE" value="프록시 클래스 확인" />
+    <MESSAGE value="프록시 유틸" />
+    <option name="LAST_COMMIT_MESSAGE" value="프록시 유틸" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
