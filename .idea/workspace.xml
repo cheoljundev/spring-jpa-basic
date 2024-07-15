@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="즉시 로딩과 지연 로딩">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Parent.java" afterDir="false" />
+    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="영속성 전이(cascade)">
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Parent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +113,7 @@
       <workItem from="1721062579828" duration="2569000" />
       <workItem from="1721066515658" duration="2424000" />
       <workItem from="1721069317731" duration="12000" />
-      <workItem from="1721069582778" duration="3036000" />
+      <workItem from="1721069582778" duration="3403000" />
     </task>
     <task id="LOCAL-00001" summary="Hello JPA - 애플리케이션 개발">
       <option name="closed" value="true" />
@@ -349,14 +347,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721072704003</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="영속성 전이(cascade)">
+      <option name="closed" value="true" />
+      <created>1721073495279</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1721073495280</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="영속성 컨텍스트 2 : 영속성 엔티티의 동일성 보장" />
     <MESSAGE value="영속성 컨텍스트 2 : 트랜잭션을 지원하는 쓰기지연" />
     <MESSAGE value="영속성 컨텍스트 2 : 변경 감지(더티 체킹)" />
     <MESSAGE value="플러시" />
@@ -381,7 +386,8 @@
     <MESSAGE value="프록시 클래스 확인" />
     <MESSAGE value="프록시 유틸" />
     <MESSAGE value="즉시 로딩과 지연 로딩" />
-    <option name="LAST_COMMIT_MESSAGE" value="즉시 로딩과 지연 로딩" />
+    <MESSAGE value="영속성 전이(cascade)" />
+    <option name="LAST_COMMIT_MESSAGE" value="영속성 전이(cascade)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
