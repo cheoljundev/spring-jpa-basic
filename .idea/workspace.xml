@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="영속성 컨텍스트 2 : 영속성 엔티티의 동일성 보장">
+    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="영속성 컨텍스트 2 : 변경 감지(더티 체킹)">
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <updated>1720970663891</updated>
       <workItem from="1720970665277" duration="955000" />
       <workItem from="1721027063302" duration="17000" />
-      <workItem from="1721027094524" duration="3901000" />
+      <workItem from="1721027094524" duration="4434000" />
     </task>
     <task id="LOCAL-00001" summary="Hello JPA - 애플리케이션 개발">
       <option name="closed" value="true" />
@@ -132,7 +131,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721043965028</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="영속성 컨텍스트 2 : 트랜잭션을 지원하는 쓰기지연">
+      <option name="closed" value="true" />
+      <created>1721044152795</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721044152796</updated>
+    </task>
+    <task id="LOCAL-00006" summary="영속성 컨텍스트 2 : 변경 감지(더티 체킹)">
+      <option name="closed" value="true" />
+      <created>1721044394493</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721044394493</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +158,9 @@
     <MESSAGE value="영속성 컨텍스트 1" />
     <MESSAGE value="영속성 컨텍스트 2 : 영속과 비영속" />
     <MESSAGE value="영속성 컨텍스트 2 : 영속성 엔티티의 동일성 보장" />
-    <option name="LAST_COMMIT_MESSAGE" value="영속성 컨텍스트 2 : 영속성 엔티티의 동일성 보장" />
+    <MESSAGE value="영속성 컨텍스트 2 : 트랜잭션을 지원하는 쓰기지연" />
+    <MESSAGE value="영속성 컨텍스트 2 : 변경 감지(더티 체킹)" />
+    <option name="LAST_COMMIT_MESSAGE" value="영속성 컨텍스트 2 : 변경 감지(더티 체킹)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
