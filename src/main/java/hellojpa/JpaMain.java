@@ -16,10 +16,21 @@ public class JpaMain {
         tx.begin();
 
         try {
+            Member member = new Member();
+            member.setUsername("hello");
 
-            Member member = em.find(Member.class, 1L);
-            printMember(member);
-//            printMemberAndTeam(member);
+            em.persist(member);
+
+            em.flush();
+            em.clear();
+
+//            Member findMember = em.find(Member.class, member.getId());
+            Member findMember = em.getReference(Member.class, member.getId());
+            System.out.println("findMember.getClass() = " + findMember.getClass()); // 프록시클래스
+
+            System.out.println("findMember.getId() = " + findMember.getId());
+            System.out.println("findMember.getUsername() = " + findMember.getUsername());
+
 
             tx.commit();
         } catch (Exception e) {
