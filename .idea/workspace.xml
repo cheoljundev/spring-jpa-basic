@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="다대다 [N:M] @OneToMany, @ManyToOne으로 풀기" />
+    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="gitignore에 .idea 추가">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,6 +115,7 @@
       <workItem from="1721053117657" duration="3944000" />
       <workItem from="1721059018965" duration="748000" />
       <workItem from="1721062579828" duration="2569000" />
+      <workItem from="1721066515658" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="Hello JPA - 애플리케이션 개발">
       <option name="closed" value="true" />
@@ -285,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721065058235</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="gitignore에 .idea 추가">
+      <option name="closed" value="true" />
+      <created>1721066642754</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1721066642754</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +329,8 @@
     <MESSAGE value="일대일 [1:1]" />
     <MESSAGE value="다대다 [N:M] @ManyToMany (사용 금지)" />
     <MESSAGE value="다대다 [N:M] @OneToMany, @ManyToOne으로 풀기" />
-    <option name="LAST_COMMIT_MESSAGE" value="다대다 [N:M] @OneToMany, @ManyToOne으로 풀기" />
+    <MESSAGE value="gitignore에 .idea 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore에 .idea 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
