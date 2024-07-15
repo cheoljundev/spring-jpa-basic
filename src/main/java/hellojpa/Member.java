@@ -11,12 +11,13 @@ import jakarta.persistence.*;
         @Column(name = "name")
         private String username;
 
-//        @Column(name = "team_id")
-//        private Long teamId;
-
         @ManyToOne
         @JoinColumn(name = "TEAM_ID") // N쪽이 주인
         private Team team;
+
+        @OneToOne
+        @JoinColumn(name = "LOCKER_ID")
+        private Locker locker;
 
         public Long getId() {
             return id;
