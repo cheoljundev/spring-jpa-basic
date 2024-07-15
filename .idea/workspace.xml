@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="영속성 컨텍스트 2 : 변경 감지(더티 체킹)">
+    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="플러시">
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,7 @@
       <updated>1720970663891</updated>
       <workItem from="1720970665277" duration="955000" />
       <workItem from="1721027063302" duration="17000" />
-      <workItem from="1721027094524" duration="4434000" />
+      <workItem from="1721027094524" duration="4806000" />
     </task>
     <task id="LOCAL-00001" summary="Hello JPA - 애플리케이션 개발">
       <option name="closed" value="true" />
@@ -147,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721044394493</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="플러시">
+      <option name="closed" value="true" />
+      <created>1721044617703</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721044617703</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +168,8 @@
     <MESSAGE value="영속성 컨텍스트 2 : 영속성 엔티티의 동일성 보장" />
     <MESSAGE value="영속성 컨텍스트 2 : 트랜잭션을 지원하는 쓰기지연" />
     <MESSAGE value="영속성 컨텍스트 2 : 변경 감지(더티 체킹)" />
-    <option name="LAST_COMMIT_MESSAGE" value="영속성 컨텍스트 2 : 변경 감지(더티 체킹)" />
+    <MESSAGE value="플러시" />
+    <option name="LAST_COMMIT_MESSAGE" value="플러시" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

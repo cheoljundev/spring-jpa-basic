@@ -16,13 +16,12 @@ public class JpaMain {
 
         try {
 
-            // 영속
+            // 준영속
 
-            Member member = new Member(200L, "member200");
+            Member member = em.find(Member.class, 150L);
+            member.setName("AAAAA");
 
-            em.persist(member);
-
-            em.flush();
+            em.detach(member);
 
             System.out.println("============================");
 
