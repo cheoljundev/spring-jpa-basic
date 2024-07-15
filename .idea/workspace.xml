@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="데이터베이스 스키마 자동 생성 : 제약조건 추가">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/RoleType.java" afterDir="false" />
+    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="필드와 컬럼 매핑">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +107,7 @@
       <updated>1720970663891</updated>
       <workItem from="1720970665277" duration="955000" />
       <workItem from="1721027063302" duration="17000" />
-      <workItem from="1721027094524" duration="7083000" />
+      <workItem from="1721027094524" duration="8606000" />
     </task>
     <task id="LOCAL-00001" summary="Hello JPA - 애플리케이션 개발">
       <option name="closed" value="true" />
@@ -196,7 +197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721046535874</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="필드와 컬럼 매핑">
+      <option name="closed" value="true" />
+      <created>1721048806580</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721048806580</updated>
+    </task>
+    <task id="LOCAL-00013" summary="필드와 컬럼 매핑">
+      <option name="closed" value="true" />
+      <created>1721048838302</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721048838302</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +231,8 @@
     <MESSAGE value="준영속 상태 : 엔티티매니저 전체를 준영속으로" />
     <MESSAGE value="데이터베이스 스키마 자동 생성 : 설정" />
     <MESSAGE value="데이터베이스 스키마 자동 생성 : 제약조건 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="데이터베이스 스키마 자동 생성 : 제약조건 추가" />
+    <MESSAGE value="필드와 컬럼 매핑" />
+    <option name="LAST_COMMIT_MESSAGE" value="필드와 컬럼 매핑" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
