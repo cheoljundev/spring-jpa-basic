@@ -11,8 +11,12 @@ import jakarta.persistence.*;
         @Column(name = "name")
         private String username;
 
-        @Column(name = "team_id")
-        private Long teamId;
+//        @Column(name = "team_id")
+//        private Long teamId;
+
+        @ManyToOne
+        @JoinColumn(name = "TEAM_ID")
+        private Team team;
 
         public Long getId() {
             return id;
@@ -30,11 +34,11 @@ import jakarta.persistence.*;
             this.username = username;
         }
 
-        public Long getTeamId() {
-            return teamId;
+        public Team getTeam() {
+            return team;
         }
 
-        public void setTeamId(Long teamId) {
-            this.teamId = teamId;
+        public void setTeam(Team team) {
+            this.team = team;
         }
     }
