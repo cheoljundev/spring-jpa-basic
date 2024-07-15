@@ -1,13 +1,16 @@
 package hellojpa;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
 public class Member {
 
     @Id
     private Long id;
+
     private String name;
 
     public Member() {

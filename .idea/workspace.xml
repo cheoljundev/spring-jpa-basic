@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="플러시">
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="준영속 상태 : 엔티티매니저 전체를 준영속으로">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +99,7 @@
       <updated>1720970663891</updated>
       <workItem from="1720970665277" duration="955000" />
       <workItem from="1721027063302" duration="17000" />
-      <workItem from="1721027094524" duration="4806000" />
+      <workItem from="1721027094524" duration="5722000" />
     </task>
     <task id="LOCAL-00001" summary="Hello JPA - 애플리케이션 개발">
       <option name="closed" value="true" />
@@ -155,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721044617703</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="준영속 상태 : 특정 엔티티를 준영속 상태로">
+      <option name="closed" value="true" />
+      <created>1721045008518</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721045008518</updated>
+    </task>
+    <task id="LOCAL-00009" summary="준영속 상태 : 엔티티매니저 전체를 준영속으로">
+      <option name="closed" value="true" />
+      <created>1721045057247</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721045057247</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +187,9 @@
     <MESSAGE value="영속성 컨텍스트 2 : 트랜잭션을 지원하는 쓰기지연" />
     <MESSAGE value="영속성 컨텍스트 2 : 변경 감지(더티 체킹)" />
     <MESSAGE value="플러시" />
-    <option name="LAST_COMMIT_MESSAGE" value="플러시" />
+    <MESSAGE value="준영속 상태 : 특정 엔티티를 준영속 상태로" />
+    <MESSAGE value="준영속 상태 : 엔티티매니저 전체를 준영속으로" />
+    <option name="LAST_COMMIT_MESSAGE" value="준영속 상태 : 엔티티매니저 전체를 준영속으로" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
