@@ -15,7 +15,7 @@ import jakarta.persistence.*;
 //        private Long teamId;
 
         @ManyToOne
-        @JoinColumn(name = "TEAM_ID")
+        @JoinColumn(name = "TEAM_ID") // N쪽이 주인
         private Team team;
 
         public Long getId() {

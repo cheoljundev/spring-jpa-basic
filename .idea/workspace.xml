@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="객체를 테이블에 맞추어 모델링시 문제점">
+    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="단방향 연관관계 매핑으로 개선">
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,7 @@
       <workItem from="1720970665277" duration="955000" />
       <workItem from="1721027063302" duration="17000" />
       <workItem from="1721027094524" duration="9947000" />
-      <workItem from="1721053117657" duration="860000" />
+      <workItem from="1721053117657" duration="1384000" />
     </task>
     <task id="LOCAL-00001" summary="Hello JPA - 애플리케이션 개발">
       <option name="closed" value="true" />
@@ -227,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721053662249</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="단방향 연관관계 매핑으로 개선">
+      <option name="closed" value="true" />
+      <created>1721054062123</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721054062123</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +256,8 @@
     <MESSAGE value="필드와 컬럼 매핑" />
     <MESSAGE value="기본 키 매핑" />
     <MESSAGE value="객체를 테이블에 맞추어 모델링시 문제점" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체를 테이블에 맞추어 모델링시 문제점" />
+    <MESSAGE value="단방향 연관관계 매핑으로 개선" />
+    <option name="LAST_COMMIT_MESSAGE" value="단방향 연관관계 매핑으로 개선" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
