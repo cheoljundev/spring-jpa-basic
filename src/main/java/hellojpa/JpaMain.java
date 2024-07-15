@@ -23,20 +23,28 @@ public class JpaMain {
 
             Member member = new Member();
             member.setUsername("member1");
-            member.setTeam(team);
+            // member.changeTeam(team);
             em.persist(member);
 
-            em.flush();
-            em.clear();
+            // 객체지향적 관점, 테스트 코드 작성시 생각해보면 순수 객체 관점에서 양쪽에 넣는 게 맞다.
+            // 단, 로직이 복잡해지므로 주인 쪽의 연관관계 편의 메서드를 작성해주자.
+            //team.getMembers().add(member)
+
+            team.addMember(member);
+
+//            em.flush();
+//            em.clear();
 
             Member findMember = em.find(Member.class, member.getId());
             Team findTeam = findMember.getTeam();
 
             List<Member> members = findTeam.getMembers();
 
+            System.out.println("=====================");
             for (Member m : members) {
                 System.out.println("m.getUsername() = " + m.getUsername());
             }
+            System.out.println("=====================");
 
             tx.commit();
         } catch (Exception e) {
