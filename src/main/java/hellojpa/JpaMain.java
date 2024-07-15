@@ -1,6 +1,7 @@
 package hellojpa;
 
 import jakarta.persistence.*;
+import org.hibernate.Hibernate;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -26,10 +27,10 @@ public class JpaMain {
 
 //            Member findMember = em.find(Member.class, member.getId());
             Member findMember = em.getReference(Member.class, member.getId());
-            System.out.println("findMember.getClass() = " + findMember.getClass()); // 프록시클래스
-
-            System.out.println("findMember.getId() = " + findMember.getId());
-            System.out.println("findMember.getUsername() = " + findMember.getUsername());
+//            findMember.getUsername(); // 강제 초기화
+            Hibernate.initialize(findMember); // 강제 초기화
+            System.out.println("isLoaded = " + emf.getPersistenceUnitUtil().isLoaded(findMember)); // 프록시 인스턴스 초기화 여부 확인
+            System.out.println("findMember.getClass() = " + findMember.getClass()); // 프록시 클래스 확인
 
 
             tx.commit();
