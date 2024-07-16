@@ -18,12 +18,18 @@ public class JpaMain {
 
         try {
 
-            Member member = new Member();
-            member.setUsername("hello");
-            member.setHomeAddress(new Address("city", "street", "12345"));
-            member.setWorkPeriod(new Period());
+            Address address = new Address("city", "street", "12345");
+            Member member1 = new Member();
+            member1.setUsername("member1");
+            member1.setHomeAddress(address);
+            em.persist(member1);
 
-            em.persist(member);
+            Member member2 = new Member();
+            member2.setUsername("member2");
+            member2.setHomeAddress(address);
+            em.persist(member2);
+
+//            member1.getHomeAddress().setCity("newCity"); // 불변객체라 불가능, 사이드 이펙트 방지.
 
             tx.commit();
         } catch (Exception e) {
