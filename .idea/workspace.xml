@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="값 타입과 불변 객체 : 불변객체화 시켰을 때 값 변경하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/ValueMain.java" afterDir="false" />
+    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="값 타입의 비교, equals 오버라이딩">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
       <recent name="hellojpa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValueMain">
+  <component name="RunManager" selected="Application.JpaMain">
     <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain" />
       <module name="ex1-hello-jpa" />
@@ -105,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValueMain" />
         <item itemvalue="Application.JpaMain" />
+        <item itemvalue="Application.ValueMain" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +129,8 @@
       <workItem from="1721066515658" duration="2424000" />
       <workItem from="1721069317731" duration="12000" />
       <workItem from="1721069582778" duration="3693000" />
-      <workItem from="1721094326148" duration="2886000" />
+      <workItem from="1721094326148" duration="4230000" />
+      <workItem from="1721103541433" duration="992000" />
     </task>
     <task id="LOCAL-00001" summary="Hello JPA - 애플리케이션 개발">
       <option name="closed" value="true" />
@@ -401,14 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721098699702</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="값 타입의 비교, equals 오버라이딩">
+      <option name="closed" value="true" />
+      <created>1721099090920</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1721099090920</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="준영속 상태 : 엔티티매니저 전체를 준영속으로" />
     <MESSAGE value="데이터베이스 스키마 자동 생성 : 설정" />
     <MESSAGE value="데이터베이스 스키마 자동 생성 : 제약조건 추가" />
     <MESSAGE value="필드와 컬럼 매핑" />
@@ -433,7 +443,8 @@
     <MESSAGE value="임베디드 타입" />
     <MESSAGE value="값 타입과 불변 객체 : 임베디드 타입을 불변객체로 만들어 사이드 이펙트 막기" />
     <MESSAGE value="값 타입과 불변 객체 : 불변객체화 시켰을 때 값 변경하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="값 타입과 불변 객체 : 불변객체화 시켰을 때 값 변경하기" />
+    <MESSAGE value="값 타입의 비교, equals 오버라이딩" />
+    <option name="LAST_COMMIT_MESSAGE" value="값 타입의 비교, equals 오버라이딩" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
