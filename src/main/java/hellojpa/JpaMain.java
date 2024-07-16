@@ -19,17 +19,14 @@ public class JpaMain {
         try {
 
             Address address = new Address("city", "street", "12345");
-            Member member1 = new Member();
-            member1.setUsername("member1");
-            member1.setHomeAddress(address);
-            em.persist(member1);
+            Member member = new Member();
+            member.setUsername("member");
+            member.setHomeAddress(address);
+            em.persist(member);
 
-            Member member2 = new Member();
-            member2.setUsername("member2");
-            member2.setHomeAddress(address);
-            em.persist(member2);
+            Address newAddress = new Address("newCity", address.getStreet(), address.getZipcode());
+            member.setHomeAddress(newAddress); // 불변객체화 시켰기 때문에 이런 식으로 바꿔야 한다.
 
-//            member1.getHomeAddress().setCity("newCity"); // 불변객체라 불가능, 사이드 이펙트 방지.
 
             tx.commit();
         } catch (Exception e) {
