@@ -27,8 +27,8 @@ public class JpaMain {
             member.getFavoriteFoods().add("족발");
             member.getFavoriteFoods().add("피자");
 
-            member.getAddressHistory().add(new Address("old1", "street", "10000"));
-            member.getAddressHistory().add(new Address("old2", "street", "10000"));
+            member.getAddressHistory().add(new AddressEntity("old1", "street", "10000"));
+            member.getAddressHistory().add(new AddressEntity("old2", "street", "10000"));
 
             em.persist(member);
 
@@ -37,11 +37,11 @@ public class JpaMain {
 
             System.out.println("============START===========");
             Member findMember = em.find(Member.class, member.getId());
-            List<Address> addressHistory = findMember.getAddressHistory();
+//            List<Address> addressHistory = findMember.getAddressHistory();
             // 값 타입 컬렉션은 지연로딩
-            for (Address address : addressHistory) {
-                System.out.println("address = " + address);
-            }
+//            for (Address address : addressHistory) {
+//                System.out.println("address = " + address);
+//            }
             Set<String> favoriteFoods = findMember.getFavoriteFoods();
             for (String favoriteFood : favoriteFoods) {
                 System.out.println("favoriteFood = " + favoriteFood);
@@ -53,8 +53,8 @@ public class JpaMain {
             findMember.getFavoriteFoods().add("한식");
 
             // old1 -> newCity
-            findMember.getAddressHistory().remove(new Address("old1", "street", "10000"));
-            findMember.getAddressHistory().add(new Address("newCity", "street", "10000"));
+//            findMember.getAddressHistory().remove(new Address("old1", "street", "10000"));
+//            findMember.getAddressHistory().add(new Address("newCity", "street", "10000"));
             // 이 방법 사용시 전체를 delete 후 전체를 insert 하는 문제 발생
             System.out.println("============END===========");
 

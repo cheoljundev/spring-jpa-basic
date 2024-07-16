@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="값 타입의 비교, equals 오버라이딩">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="155a99d6-24cc-4473-a5fa-86835bba3710" name="Changes" comment="값 타입 컬렉션 : 문제">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/AddressEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
     </list>
@@ -130,7 +130,7 @@
       <workItem from="1721069317731" duration="12000" />
       <workItem from="1721069582778" duration="3693000" />
       <workItem from="1721094326148" duration="4230000" />
-      <workItem from="1721103541433" duration="992000" />
+      <workItem from="1721103541433" duration="1314000" />
     </task>
     <task id="LOCAL-00001" summary="Hello JPA - 애플리케이션 개발">
       <option name="closed" value="true" />
@@ -412,14 +412,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721099090920</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="값 타입 컬렉션 : 문제">
+      <option name="closed" value="true" />
+      <created>1721104556816</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1721104556816</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="데이터베이스 스키마 자동 생성 : 설정" />
     <MESSAGE value="데이터베이스 스키마 자동 생성 : 제약조건 추가" />
     <MESSAGE value="필드와 컬럼 매핑" />
     <MESSAGE value="기본 키 매핑" />
@@ -444,7 +451,8 @@
     <MESSAGE value="값 타입과 불변 객체 : 임베디드 타입을 불변객체로 만들어 사이드 이펙트 막기" />
     <MESSAGE value="값 타입과 불변 객체 : 불변객체화 시켰을 때 값 변경하기" />
     <MESSAGE value="값 타입의 비교, equals 오버라이딩" />
-    <option name="LAST_COMMIT_MESSAGE" value="값 타입의 비교, equals 오버라이딩" />
+    <MESSAGE value="값 타입 컬렉션 : 문제" />
+    <option name="LAST_COMMIT_MESSAGE" value="값 타입 컬렉션 : 문제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
